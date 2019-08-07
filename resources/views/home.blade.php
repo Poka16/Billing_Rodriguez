@@ -6,7 +6,7 @@
     <h1 class="d-flex justify-content-center display-3"> Bienvenido al Sistema</h1>
 </div>
 <hr>
-<div class="text-center">
+<div class="text-left">
     <br>
     <div class=" justify-content-center">
         <a href="users" class="btn btn-secondary btn-lg">Usuarios</a>

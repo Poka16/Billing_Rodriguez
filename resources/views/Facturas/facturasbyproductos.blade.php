@@ -2,7 +2,7 @@
 @section('main')
 <br>
 
-<div class="d-flex justify-content-center">
+<div class="justify-content-center">
     <h1 class="display-4">Facturas por Producto</h1>
 </div>
 
@@ -16,7 +16,6 @@
     <thead>
         <tr>
           <td>ID Factura</td>
-          
           <td>Detalle Factura</td>
           <td>Fecha de Compra</td>
           <td>ID Usuario</td>
@@ -30,7 +29,6 @@
     @foreach($data as $bill)
         <tr>
             <td>{{$bill->id}}</td>
-           
             <td>{{$bill->detalle_factura}}</td>
             <td>{{$bill->created_at}}</td>
             <td>{{$bill->user_id}}</td>
